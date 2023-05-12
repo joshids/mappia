@@ -1,8 +1,8 @@
 {
     "name": "SG Mobile: Safeguards on the go",
-    "start_url": "/",
+    "start_url": "/mappia",
     "orientation": "any",
-    "scope": "/",
+    "scope": "/mappia",
     "display": "standalone",
     "short_name":"SGMobile",
     "theme_color": "blue",
