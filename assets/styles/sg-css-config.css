@@ -1,0 +1,67 @@
+/*!
+ * SAFEGUARDS DIGITAL DESIGN SYSTEM
+ * v2.0.3 (https://design.dev.sg.info)
+ * Current version based on Bootstrap v5.2.3.
+*//*!
+/* SG Configurable CSS variables */
+
+:root {
+
+/* REQUIRED
+   Configure the application's Font Awesome Logo Icon
+
+   Use FontAwesome unicode character.
+*/
+  --app-icon: "\f5a2";
+
+
+
+/* REQUIRED
+   Configure Header Height
+   
+   Default header height is 100px for Standard Header.
+   Change to 50px if using Combined Header.
+*/
+--sg-header-height: 50px;  
+
+
+
+/* OPTIONAL
+  Configure Sidebar Color Options -- change is optional.
+
+  DEFAULT SIDEBAR BACKGROUND COLOR is #f4f4f4cc (pale gray).
+    Other background color options are:
+      #fff (white)
+      #f4f8f9cc (pale blue)
+
+  CSS Variable for DEFAULT SELECTED STATE color is --sg-primary (blue-600).
+    Other CSS Variables for selected state color options are: 
+      --sg-blue-300
+      --sg-warning
+      --sg-orange-300
+*/
+  --sg-sidebar-background-color: #f4f4f4cc;
+  --sg-sidebar-selected: var(--sg-primary);
+
+
+
+/* OPTIONAL
+   Configure Heading Color Options -- change is optional.
+
+   Default colors below. 
+  
+   Change is optional.
+   Other HEADING COLOR options are here:
+    https://design.dev.sg.info/templates/headings/usage#color-schemes
+*/
+
+  --sg-heading-L1-background-color: var(--sg-blue-100);
+  --sg-heading-L1-border-color: var(--sg-blue-500);
+  --sg-heading-L2-background-color: var(--sg-yellow-50);
+  --sg-heading-L2-border-color: var(--sg-yellow-300);
+  --sg-heading-L3-background-color: var(--sg-gray-100);
+  --sg-heading-L3-border-color: var(--sg-gray-500);
+  --sg-heading-L4-background-color: var(--sg-gray-50);
+  --sg-heading-L4-border-color: var(--sg-gray-300);
+
+}
